@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 32px;
+}
+
+body {
+    display: flex;
+    background-color: gray;
+}
+
+#calculator {
+    width: 10rem;
+    margin: auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+#display {
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding: .3rem;
+}
+
+#display span {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+#buttons {
+    display: grid;
+    height: 8rem;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+#buttons button {
+    font-size: .5rem;
+    border: 1px black solid;
+}
+
+.number {
+    background-color: lightgray;
+}
+
+.number:hover {
+    opacity: .618;
+}
+
+.dark {
+    background-color: darkgray;
+}
+
+.dark:hover {
+    opacity: .618;
+}
